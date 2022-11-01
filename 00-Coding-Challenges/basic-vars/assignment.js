@@ -36,3 +36,9 @@ console.log("Data 1 is mark bmi higher?: " + isBmiMarkHigher(bmiMark, bmiJohn));
 console.log(
   "Data 2 is mark bmi higher?: " + isBmiMarkHigher(bmiMark2, bmiJohn2)
 );
+
+if (isBmiMarkHigher(bmiMark, bmiJohn)) {
+  console.log(`Mark's BMI(${bmiMark}) is higher than John's (${bmiJohn})`);
+} else {
+  console.log("Johns's BMI (${bmiJohn}) is higher than Marks's(${bmiMark})");
+}
